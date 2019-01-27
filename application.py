@@ -5,6 +5,7 @@ import pandas as pd
 from utils import success_, get_deadline_year, preprocess
 from Models import LGBMModel
 from sklearn.metrics import accuracy_score
+import numpy
 
 class Application:
     """
